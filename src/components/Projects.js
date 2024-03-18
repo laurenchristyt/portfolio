@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/iot.jpg";
+import tes from "../assets/img/tes.png";
 import projImg2 from "../assets/img/project-img2.png";
 import lexia from "../assets/img/Lexia.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -28,14 +29,14 @@ export const Projects = () => {
       description: "Website-based game for dyslexia people",
       imgUrl: lexia,
       githubUrl: "https://github.com/laurenchristyt/Lexia",
-      demoUrl: "#"
+      demoUrl: "https://youtu.be/DLdqFZCMwbo"
     },
     {
       title: "Air Quality Monitor",
       description: "Design & Development",
       imgUrl: air,
       githubUrl: "https://github.com/laurenchristyt/Air-Quality-Monitor",
-      demoUrl: "#"
+      demoUrl: tes
     },
   ];
 
@@ -52,14 +53,14 @@ export const Projects = () => {
       description: "",
       imgUrl: nishastra,
       githubUrl: "https://github.com/rotary-auav-ui/ieee-chase-challenge",
-      demoUrl: "#"
+      demoUrl: "https://youtu.be/BU0Y5hTIbNY"
     },
     {
       title: "Stellion: Weight-lifting quadcopter implementing website-based Ground Control System",
       description: "Achieved Finalist in Kontes Robot Terbang Indonesia 2023",
       imgUrl: stellion,
       githubUrl: "https://github.com/rotary-auav-ui/vishwakarma-krti2023",
-      demoUrl: "#"
+      demoUrl: "https://www.youtube.com/watch?v=n7jtqA_ib9k&t=10s"
     },
   ];
 

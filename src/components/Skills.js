@@ -5,6 +5,7 @@ import react from "../assets/img/react.png";
 import tailwind from "../assets/img/tailwind.png";
 import hadoop from "../assets/img/hadoop.png";
 import android from "../assets/img/Android.png";
+import gcp from "../assets/img/gcp.svg";
 import nodejs from "../assets/img/nodejs.png";
 import drone from "../assets/img/Drone.png";
 import px4 from "../assets/img/px4.png";
@@ -107,6 +108,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={hadoop} alt="Image" />
                                 <h5>Hadoop</h5>
+                            </div>
+                            <div className="item">
+                                <img src={gcp} alt="Image" />
+                                <h5>Google Cloud Platform</h5>
                             </div>
                         </Carousel>
                     </div>

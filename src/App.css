@@ -664,3 +664,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: auto;
   height: 120%;
 }
+
+.smaller-title {
+  font-size: 14px;
+}
