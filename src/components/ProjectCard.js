@@ -8,7 +8,7 @@ export const ProjectCard = ({ title, description, imgUrl, githubUrl, demoUrl }) 
       <div className="proj-imgbx">
         <img src={imgUrl} alt={title} />
         <div className="proj-txtx">
-          <h4>{title}</h4>
+          <h3>{title}</h3>
           <span>{description}</span>
           <div className="buttons">
             <button><a href={githubUrl} style={linkStyle}>Github</a></button>
