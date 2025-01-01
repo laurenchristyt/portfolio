@@ -31,10 +31,7 @@ const Hero = () => {
 
             {/* Download Resume Button */}
             <div className="mt-4">
-              <a
-                href="/path-to-your-resume.pdf" // Replace with the actual path to your resume
-                download
-              >
+              <a href="/CV.pdf" download>
                 <button
                   type="button"
                   className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary flex items-center gap-2"
